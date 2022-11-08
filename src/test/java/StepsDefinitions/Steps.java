@@ -1,5 +1,6 @@
 package StepsDefinitions;
 
+import Configuration.RunConfiguration;
 import io.cucumber.java.en.And;
 import io.cucumber.java.en.Given;
 import io.cucumber.java.en.Then;
@@ -23,5 +24,9 @@ public class Steps {
     @Then("the user should be logged in successfully")
     public void the_user_should_be_logged_in_successfully() {
         System.out.println("User logged in successfully");
+    }
+
+    @Given("Alice opens the app")
+    public void aliceOpensTheApp() {
     }
 }

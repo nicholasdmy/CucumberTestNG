@@ -5,17 +5,11 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="e810a62c-b687-459f-833d-393b59a2ec49" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/src/test/java/Component/CapabilitiesKeys.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/Component/Driver.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/Component/Locator.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/Configuration/EnumApp.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/Configuration/RunConfiguration.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/Constants/Constants.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/Utils/StringUtils.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/Utils/WaitManager.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/Utils/WindowsUtils.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/StepsDefinitions/backgroundSteps/BackgroundSteps.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/Utils/Hooks.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/Runners/Run.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/Runners/Run.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/features/firstTest.feature" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/features/firstTest.feature" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/StepsDefinitions/Steps.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/StepsDefinitions/Steps.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -144,12 +138,20 @@
       <option name="project" value="LOCAL" />
       <updated>1662085851833</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="Created the classes &#10;CapabilitiesKeys &#10;Driver&#10;Locator &#10;RunConfiguration&#10;Constants&#10;Run&#10;StringUtils&#10;WaitManager&#10;WindowsUtils&#10;&#10;And create the EnumApp">
+      <created>1667943787411</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1667943787411</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="First commit" />
     <MESSAGE value="Second commit" />
-    <option name="LAST_COMMIT_MESSAGE" value="Second commit" />
+    <MESSAGE value="Created the classes &#10;CapabilitiesKeys &#10;Driver&#10;Locator &#10;RunConfiguration&#10;Constants&#10;Run&#10;StringUtils&#10;WaitManager&#10;WindowsUtils&#10;&#10;And create the EnumApp" />
+    <option name="LAST_COMMIT_MESSAGE" value="Created the classes &#10;CapabilitiesKeys &#10;Driver&#10;Locator &#10;RunConfiguration&#10;Constants&#10;Run&#10;StringUtils&#10;WaitManager&#10;WindowsUtils&#10;&#10;And create the EnumApp" />
   </component>
 </project>
