@@ -1,12 +1,12 @@
-package StepsDefinitions;
+package StepsDefinitions.SignInSteps;
 
-import Configuration.RunConfiguration;
+import Runners.Run;
 import io.cucumber.java.en.And;
 import io.cucumber.java.en.Given;
 import io.cucumber.java.en.Then;
 import io.cucumber.java.en.When;
 
-public class Steps {
+public class SignInSteps extends Run {
 
 
     @Given("the user is on login page")
@@ -26,7 +26,7 @@ public class Steps {
         System.out.println("User logged in successfully");
     }
 
-    @Given("Alice opens the app")
-    public void aliceOpensTheApp() {
-    }
+        @Given("Alice opens the app")
+        public void aliceOpensTheApp() {
+        }
 }

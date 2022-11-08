@@ -4,12 +4,16 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="e810a62c-b687-459f-833d-393b59a2ec49" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/src/test/java/StepsDefinitions/backgroundSteps/BackgroundSteps.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/Utils/Hooks.java" afterDir="false" />
+    <list default="true" id="e810a62c-b687-459f-833d-393b59a2ec49" name="Changes" comment="Added">
+      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/features/Test.feature" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/features/firstTest.feature" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/features/firstTest.feature" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/StepsDefinitions/Steps.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/StepsDefinitions/Steps.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/Configuration/RunConfiguration.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/Configuration/RunConfiguration.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/Constants/Constants.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/Constants/Constants.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/Runners/Run.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/Runners/Run.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/StepsDefinitions/Steps.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/StepsDefinitions/SignInSteps/SignInSteps.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/StepsDefinitions/backgroundSteps/BackgroundSteps.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/StepsDefinitions/backgroundSteps/BackgroundSteps.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/Utils/Hooks.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/Utils/Hooks.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -52,30 +56,11 @@
       <recent name="C:\Users\nicho\IdeaProjects\CucumberTestNG\src\test" />
     </key>
   </component>
-  <component name="RunManager" selected="Cucumber Java.Scenario: User should be able to login with valid credentials">
-    <configuration name="Feature: firstTest" type="CucumberJavaRunConfigurationType" factoryName="Cucumber java" temporary="true" nameIsGenerated="true">
-      <option name="CUCUMBER_CORE_VERSION" value="5" />
-      <option name="FILE_PATH" value="$PROJECT_DIR$/src/test/resources/firstTest.feature" />
-      <option name="MAIN_CLASS_NAME" value="io.cucumber.core.cli.Main" />
-      <module name="CucumberTestNG" />
-      <option name="PROGRAM_PARAMETERS" value=" --plugin org.jetbrains.plugins.cucumber.java.run.CucumberJvm5SMFormatter" />
-      <shortenClasspath name="NONE" />
-      <option name="SUGGESTED_NAME" value="Feature: firstTest" />
-      <option name="WORKING_DIRECTORY" value="$MODULE_WORKING_DIR$" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="io.cucumber.core.cli.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
+  <component name="RunManager">
     <configuration name="Scenario: User should be able to login with valid credentials" type="CucumberJavaRunConfigurationType" factoryName="Cucumber java" temporary="true" nameIsGenerated="true">
       <option name="CUCUMBER_CORE_VERSION" value="5" />
       <option name="FILE_PATH" value="$PROJECT_DIR$/src/test/features/firstTest.feature" />
-      <option name="GLUE" value="StepsDefinitions" />
+      <option name="GLUE" value="Utils StepsDefinitions.SignInSteps" />
       <option name="MAIN_CLASS_NAME" value="io.cucumber.core.cli.Main" />
       <module name="CucumberTestNG" />
       <option name="NAME_FILTER" value="^User should be able to login with valid credentials$" />
@@ -92,26 +77,9 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="C:/Users/nicho/IdeaProjects/CucumberTestNG/testng.xml" type="TestNG" temporary="true" nameIsGenerated="true">
-      <module name="CucumberTestNG" />
-      <option name="SUITE_NAME" value="$PROJECT_DIR$/testng.xml" />
-      <option name="TEST_OBJECT" value="SUITE" />
-      <properties />
-      <listeners />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <list>
-      <item itemvalue="Cucumber Java.Feature: firstTest" />
-      <item itemvalue="Cucumber Java.Scenario: User should be able to login with valid credentials" />
-      <item itemvalue="TestNG.C:/Users/nicho/IdeaProjects/CucumberTestNG/testng.xml" />
-    </list>
     <recent_temporary>
       <list>
         <item itemvalue="Cucumber Java.Scenario: User should be able to login with valid credentials" />
-        <item itemvalue="TestNG.C:/Users/nicho/IdeaProjects/CucumberTestNG/testng.xml" />
-        <item itemvalue="Cucumber Java.Feature: firstTest" />
       </list>
     </recent_temporary>
   </component>
@@ -145,13 +113,21 @@
       <option name="project" value="LOCAL" />
       <updated>1667943787411</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="Created Backgound Class &#10;And Hooks Class">
+      <created>1667945903657</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1667945903657</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="First commit" />
     <MESSAGE value="Second commit" />
     <MESSAGE value="Created the classes &#10;CapabilitiesKeys &#10;Driver&#10;Locator &#10;RunConfiguration&#10;Constants&#10;Run&#10;StringUtils&#10;WaitManager&#10;WindowsUtils&#10;&#10;And create the EnumApp" />
-    <option name="LAST_COMMIT_MESSAGE" value="Created the classes &#10;CapabilitiesKeys &#10;Driver&#10;Locator &#10;RunConfiguration&#10;Constants&#10;Run&#10;StringUtils&#10;WaitManager&#10;WindowsUtils&#10;&#10;And create the EnumApp" />
+    <MESSAGE value="Created Backgound Class &#10;And Hooks Class" />
+    <option name="LAST_COMMIT_MESSAGE" value="Created Backgound Class &#10;And Hooks Class" />
   </component>
 </project>

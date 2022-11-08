@@ -28,7 +28,7 @@ public class Run extends AbstractTestNGCucumberTests{
         return capabilities;
     }
 
-    protected static void setDescription() {
+    protected static void setDesktopSession() {
         waitSeconds(5);
         DesiredCapabilities desktopCapabilities = setCapabilities();
         desktopCapabilities.setCapability(APP, "Root");
@@ -44,5 +44,7 @@ public class Run extends AbstractTestNGCucumberTests{
         waitSeconds(5);
         driver.switchTo().window(driver.getWindowHandle());
     }
+
+
 
 }

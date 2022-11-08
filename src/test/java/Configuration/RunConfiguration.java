@@ -19,4 +19,10 @@ public class RunConfiguration extends Run {
     private static void setLeagueExe() {
         exeFileName = Constants.LEAGUE_OF_LEGENDS_EXE;
     }
+
+    public static void setLeagueSession() {
+        setDesktopSession();
+        setLeagueOfLegendsSession();
+    }
+
 }
