@@ -6,7 +6,7 @@
   <component name="ChangeListManager">
     <list default="true" id="e810a62c-b687-459f-833d-393b59a2ec49" name="Changes" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/Constants/Constants.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/Constants/Constants.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/Utils/Hooks.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/Utils/Hooks.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -120,7 +120,14 @@
       <option name="project" value="LOCAL" />
       <updated>1667948446895</updated>
     </task>
-    <option name="localTasksCounter" value="6" />
+    <task id="LOCAL-00006" summary="Fixed league path">
+      <created>1667949444550</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1667949444550</updated>
+    </task>
+    <option name="localTasksCounter" value="7" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
@@ -129,6 +136,7 @@
     <MESSAGE value="Created the classes &#10;CapabilitiesKeys &#10;Driver&#10;Locator &#10;RunConfiguration&#10;Constants&#10;Run&#10;StringUtils&#10;WaitManager&#10;WindowsUtils&#10;&#10;And create the EnumApp" />
     <MESSAGE value="Created Backgound Class &#10;And Hooks Class" />
     <MESSAGE value="Added the setLeagueSession on RunConfiguration" />
-    <option name="LAST_COMMIT_MESSAGE" value="Added the setLeagueSession on RunConfiguration" />
+    <MESSAGE value="Fixed league path" />
+    <option name="LAST_COMMIT_MESSAGE" value="Fixed league path" />
   </component>
 </project>
